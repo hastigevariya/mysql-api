@@ -1,6 +1,6 @@
 module.exports = (app) => {
 
-    const databasecall = require('./databaseApiCall.js')
+    const databasecall = require('./databaseApicall.js')
 
     app.post("/transactionin",databasecall.transactionin)
     app.post("/updateTransaction",databasecall.updateTransaction)
